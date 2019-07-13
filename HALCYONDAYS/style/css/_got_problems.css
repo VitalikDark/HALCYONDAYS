@@ -1,0 +1,61 @@
+.got_porblems {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../../images/bg/flowers_bg.jpg');
+}
+
+.got_porblems>.title {
+	padding-top: 80px;
+	font-family: GothamRnd-Book;
+	font-size: 40px;
+	color: #fff; 
+}
+
+.got_porblems>.content>span { 
+	font-family: Gotham-Rounded-Medium-Italic;
+	font-size: 25px;
+}
+
+.got_porblems>.content {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	font-family: GothamRnd-Book;
+	font-size: 25px;
+	color: #fff;
+}
+
+a .circle_down_bth {
+	position: relative;
+	margin: 0 auto;
+	width: 45px;	
+	height: 45px;
+	background-color: #3dc9b3;
+	border-radius: 50%;
+}
+
+.circle_down_bth>.box1 {
+	margin-top: 22px;
+	margin-left: 14px;
+	position: absolute;
+	transform: rotate(45deg);
+	width: 12px;
+	height: 4px;
+	background-color: #fff;
+}
+.circle_down_bth>.box2 {
+	margin-top: 22px;
+	margin-left: 20px;
+	position: absolute;
+	transform: rotate(-45deg);
+	width: 12px;
+	height: 4px;
+	background-color: #fff;
+}
+
+.w_b {
+	height: 30px;
+	max-width: 100%;
+}

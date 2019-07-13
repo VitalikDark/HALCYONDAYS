@@ -1,0 +1,77 @@
+.team_wrapper>.title {
+	padding-top: 90px;
+	padding-bottom: 25px;
+	font-family: Gotham-Rounded-Medium;
+	font-size: 15px;
+	color: #353535;
+	text-align: center;
+}
+
+.team_wrapper .row {
+	margin: 0 auto;
+	max-width: 1140px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 200px;
+}
+
+.team_wrapper>.bg {
+
+	max-width: 100%;
+	height: 15px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../../images/bg/intro_bg.png');
+}
+
+.team_wrapper>.row>.col-1>.bg {
+	margin: 0 auto;
+	width: 195px;
+	height: 220px;
+	background-position: center;
+	background-image: url('../../images/bg/jon_name.png');
+}
+
+.team_wrapper>.row>.col-2>.bg {
+	margin: 0 auto;
+	width: 195px;
+	height: 220px;
+	background-position: center;
+	background-image: url('../../images/bg/cersel_name.png');
+}
+
+.team_wrapper>.row>.col-3>.bg {
+	margin: 0 auto;
+	width: 195px;
+	height: 220px;
+	background-position: center;
+	background-image: url('../../images/bg/jamei_name.png')
+}
+
+.team_wrapper>.row .title {
+	padding-top: 60px;
+	padding-bottom: 20px;
+	font-family: Gotham-Rounded-Medium;
+	font-size: 15px;
+}
+
+.team_wrapper>.row .box {
+	background-color: #3dc9b3;
+	width: 33px;
+	height: 3px;
+	margin: 0 auto;
+}
+
+.team_wrapper>.row .content {
+	line-height: 20px;
+	color: #8c9398;
+	font-family: Gotham-Rounded-Medium;
+	font-size: 14px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	max-width: 360px;
+}

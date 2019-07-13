@@ -1,0 +1,129 @@
+.drop {
+	background-color: #f3f5f8;
+	height: 100%;
+	max-width: 100%;
+}
+
+.drop_title>.title {
+	text-align: center;
+	color: #353535;
+	padding-top: 100px;
+	padding-bottom: 25px;
+}
+
+.drop .drop_title .title {
+	color:#353535;
+	font-family: Gotham-Rounded-Medium;
+	font-size: 15px;
+}
+
+.drop_title>.drop_title_bg {
+	max-width: 100%;
+	height: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../../images/bg/intro_bg.png');
+}
+
+.drop>.row_content {
+	max-width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+
+.drop>.row_content>.column {
+	max-width: 360px;
+	width: 100%;
+	height: 150px;
+	background-color: #fff;
+
+}
+
+.drop .location_adress {
+	background-image: url('../../images/icons/address.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 20px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.drop .location_phone {
+	background-image: url('../../images/icons/telephone.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 20px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.drop .location_email {
+	background-image: url('../../images/icons/telegram_icon.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 20px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+.row_content .title {
+	font-family: Gotham-Rounded-Medium;
+	font-size: 14px;
+	color: #3dc9b3;
+	padding-top: 20px;
+}
+
+.drop .adress {
+	font-family: Gotham-Rounded-Medium;
+	font-size: 14px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #8c9398;
+}
+
+.drop .drop_icons {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 170px;
+	height: 40px;
+	margin-bottom: 110px;
+}
+
+.drop .drop_icons .icon1 {
+	background-image: url('../../images/icons/ball.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 42px;
+	height: 42px;
+
+}
+
+
+.drop .drop_icons .icon2 {
+	background-image: url('../../images/icons/ball.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 42px;
+	height: 42px;
+
+}
+
+
+.drop .drop_icons .icon3 {
+	background-image: url('../../images/icons/ball.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 42px;
+	height: 42px;
+
+}

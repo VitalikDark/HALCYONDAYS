@@ -1,0 +1,106 @@
+header {
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+	max-width: 615px;
+	max-height: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header_g {
+	background-image: url('../../images/bg/header_bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	max-height: 800px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header_menu {
+	width: 30px;
+	height: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;	
+}
+
+.menu_row ul li {
+	
+	display: inline-block;
+	
+
+}
+
+.menu_row ul li a {
+	font-family: GothamRnd-Book;
+	font-size: 15px;
+	padding-left: 14px;
+	color: #372c3c;
+	text-decoration: none;
+}
+
+
+
+
+.header_menu div {
+	width: 30px;
+	height: 25px;
+	display: flex;
+	flex-direction: column;
+	background-color: #372c3c;
+	margin-bottom: 4px;
+}
+
+.header_title {
+	padding-top: 165px;
+	font-family: GothamRnd-Book;
+	font-size: 40px;
+	letter-spacing: 15px;
+}
+
+.header_title span {
+	color: #ccc;
+}
+
+.header_str {
+	padding-top: 30px;
+	padding-bottom: 60px;
+	letter-spacing: 2px;
+	font-family: GothamRnd-Book;
+	font-size: 15px;
+	color: #8c9398;
+}
+
+.header_str span {
+	font-family: Gotham-Rounded-Medium-Italic;
+
+}
+
+.header_bth button{
+	cursor: pointer;
+	width: 195px;
+	height: 60px;
+	background-color: #3dc9b3;
+	border: 1px solid #3dc9b3;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Gotham-Rounded-Medium;
+	font-size: 15px;
+	line-height: 60px;
+	border-radius: 2px;
+	box-shadow: 0px 3px #309383;
+
+}
+
+.h_w {
+	height: 340px;
+	max-width: 100%;
+}
+
+
